@@ -1,0 +1,344 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+
+}
+
+
+/* ================ custome css   ================ */
+.btn-light-golden {
+    background: linear-gradient(to bottom, #db982b, #ffd14b);
+    border-radius: 30px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.btn-light-golden:hover {
+
+    background: linear-gradient(to top, #db982b, #ffd14b);
+    border: 1px solid rgb(58, 47, 27);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    background: url(../Img/home.jpg) no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navigation {
+    background: linear-gradient(to right, #fbb43b, #fff8eb);
+    position: relative;
+}
+
+.navigation::after {
+    background: url(../Img/nav_bottom.svg) repeat-x;
+    content: "";
+    height: 90px;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 2;
+    /* filter:brightness(90%); */
+}
+
+.navbar-nav .active {
+    background: linear-gradient(to right, #fca90e, #e4faff);
+}
+
+.navbar-nav li a span {
+    font-size: 1.3rem;
+    color: #1e1e1e !important;
+    font-variant: small-caps;
+
+}
+
+
+.navigation img {
+    width: 1.8rem;
+    object-fit: cover;
+}
+
+.navbar-nav li a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    color: rgb(0, 0, 0) !important;
+    background: linear-gradient(to right, #e4faff, #fca90e);
+
+}
+
+
+/* phone navigation */
+.phone-navigation {
+    background: linear-gradient(to right, #f7b646, #f9cd79);
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: none;
+    z-index: 999;
+}
+
+.phone-navigation li {
+    background: rgb(255 247 240);
+}
+
+.phone-navigation li a {
+    color: black !important;
+    font-size: 0.9rem;
+    /* padding: 5px 3px !important; */
+}
+
+.phone-navigation img {
+    width: 2.2rem;
+
+}
+
+
+/* header contents */
+
+.header-content {
+    padding: 120px 0px;
+}
+
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: #c7742b;
+    letter-spacing: 1px;
+    font-family: cursive;
+    text-shadow: 1px 1px 10px rgba(255, 91, 91, 0.418);
+    /* color: transparent; */
+    /* -webkit-text-stroke: #884b15 2px; */
+}
+
+.header-content h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #c38103;
+    text-shadow: 1px 1px 5px rgba(247, 255, 91, 0.734);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-content p {
+    font-size: 2rem;
+    color: #5b4b2f;
+    text-shadow: 1px 1px 4px rgba(26, 26, 26, 0.396);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*about-section */
+.about-content h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+}
+
+
+/* section-heading */
+.section-heading span .text-golden {
+    color: rgb(162, 122, 19);
+    font-size: 1.3rem;
+}
+
+.about-content h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+.about-content p {
+    color: #616161;
+    font-family: sans-serif;
+    border-color: rgb(255, 157, 53) !important;
+    text-align: justify;
+}
+
+/* process-section */
+.process-section {
+    background: linear-gradient(19deg, #f5c04c, #f5eece, #fcf7de);
+
+}
+
+.process-section .card {
+    border-radius: 20px;
+}
+
+.process-section .card p {
+    text-align: justify;
+}
+
+
+.process-section .card .image-text img {
+    width: 4.5rem;
+    object-fit: cover;
+}
+
+/* services-section */
+.services-section .card .image {
+    border: 5px solid goldenrod;
+}
+
+.services-section .card .image img {
+    width: 6.5rem;
+    object-fit: cover;
+}
+
+.services-section .card h5 {
+    border-bottom: 5px solid goldenrod !important;
+}
+
+
+/*products-section */
+.product-section {
+    background: linear-gradient(225deg, #ffd165, #ffe390, #fffdf9);
+}
+
+.product-section .card {
+    border-radius: 30px 0px;
+
+}
+
+.product-section .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.product-section .card:hover .image {
+    padding: 0% !important;
+    transition: all 0.3s;
+
+}
+
+.product-section .card1 {
+    background: linear-gradient(182deg, #ff7d10, #fffcf3);
+}
+
+
+.product-section .card2 {
+    background: linear-gradient(182deg, #c7af00, #fefff2);
+}
+
+.product-section .card3 {
+    background: linear-gradient(182deg, #c18b67, #fff5fa);
+
+    /* background: linear-gradient(182deg, #bae9fd, #f6fbff); */
+    /* background:linear-gradient(182deg, #db5271, #fff8f4); */
+
+}
+
+
+.product-section .card4 {
+    background: linear-gradient(182deg, #dfa177, #fffcfb);
+}
+
+
+.product-section .card5 {
+    background: linear-gradient(182deg, #f286ff, #fef5ff);
+
+}
+
+.product-section .card6 {
+    /* background: linear-gradient(182deg, #ffb35b, #fefff2); */
+    background: linear-gradient(182deg, #bae9fd, #f6fbff);
+
+}
+
+
+.product-section .card .image {
+    height: 250px;
+    width: 100%;
+}
+
+.product-section .card .image img {
+    border-radius: 30px 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(255, 203, 126);
+    object-fit: cover;
+}
+
+
+
+/* gallery-section */
+.gallery-section .image{
+    overflow: hidden;
+    border: 1px solid rgb(255, 157, 53) !important;
+cursor: pointer;
+    border-radius: 10px;
+}
+.gallery-section .image:hover img  {
+    transform: scale(1.1);
+    transition: all 0.2s;
+
+}
+
+.gallery-section img {
+   
+    object-fit: cover;
+}
+
+/* footer */
+.footer {
+    position: relative;
+    background: radial-gradient(circle, #fff5e8, #ffb65b);
+    /* background: url(../Img/footer\ bg.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer::before {
+    background: url(../Img/wavesOpacity.svg) repeat-x;
+    content: "";
+    height: 90px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+}
+
+.footer .f-content {
+    line-height: 35px;
+}
+
+.footer .f-content img {
+    width: 0.9rem;
+}
+
+
+.footer .f-content span {
+    line-height: 70px;
+}
+
+.footer .f-content a {
+    font-size: 1.1rem;
+    color: rgb(56, 56, 56);
+}
+
+.footer .f-content li:hover {
+    transform: translateX(6px);
+    text-decoration: underline !important;
+    transition: all 0.2s;
+
+}
+
+.footer .f-content li:hover a {
+    color: rgb(18, 18, 18);
+}

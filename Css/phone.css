@@ -1,0 +1,84 @@
+/*--------------- -css for Large devices (desktops, 992px and up) --------------------------------*/
+@media only screen and (max-width:992px) {
+
+    .phone-navigation {
+        display: block;
+    }
+
+    .Navigation-list {
+        display: none !important;
+    }
+
+    .nav-login {
+        display: none;
+    }
+
+    .header {
+        height: 100%;
+    }
+
+    /* header contents */
+
+    .header-content {
+        padding: 150px 0px;
+        text-align: center;
+
+    }
+
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+
+    .header-content h2 {
+        font-size: 1.7rem;
+    }
+
+    .header-content p {
+        font-size: 1.5rem;
+    }
+
+
+    .footer {
+        margin-bottom: 5rem;
+
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+    /*about-section */
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-content p {
+        font-size: 0.89rem;
+    }
+
+
+    .footer .f-content {
+        line-height: 30px;
+    }
+
+    .footer .f-content span {
+        line-height: 50px;
+    }
+
+}
+
+
+@media only screen and (max-width:576px) {
+
+    /* services-section */
+    .services-section .card .image {
+        border: 5px solid goldenrod;
+        margin: auto;
+    }
+
+    .services-section .card .image img {
+        width: 10rem;
+    }
+}
